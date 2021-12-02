@@ -1,6 +1,6 @@
 {
 	"name": "@albizures/tsconfig",
-	"version": "0.3.0",
+	"version": "0.1.0",
 	"description": "Shared TypeScript config for all my projects",
 	"main": "tsconfig.json",
 	"license": "MIT",

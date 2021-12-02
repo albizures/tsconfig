@@ -1,0 +1,32 @@
+{
+	"name": "@albizures/tsconfig",
+	"version": "0.3.0",
+	"description": "Shared TypeScript config for all my projects",
+	"main": "tsconfig.json",
+	"license": "MIT",
+	"repository": "albizures/tsconfig",
+	"author": {
+		"email": "albizures@vk.com",
+		"name": "Jose Albizures",
+		"url": "https://albizures.com"
+	},
+	"files": [
+		"tsconfig.json"
+	],
+	"scripts": {
+		"release": "standard-version --release-as minor && git push --follow-tags origin HEAD"
+	},
+	"devDependencies": {
+		"@albizures/commitlint": "^0.1.0",
+		"@albizures/prettier-config": "^1.0.1",
+		"husky": "^7.0.4",
+		"prettier": "^2.5.0",
+		"standard-version": "^9.3.2"
+	},
+	"keywords": [
+		"tsconfig",
+		"typescript",
+		"ts",
+		"config"
+	]
+}
